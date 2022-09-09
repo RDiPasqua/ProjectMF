@@ -544,7 +544,7 @@ footer .Name-Company{
 
   .navbar-list {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.689);
+    background-color: rgba(0, 0, 0, 0.755);
     flex-direction: column;
     top: 100px;
     right: 0;
