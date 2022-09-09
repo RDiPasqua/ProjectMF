@@ -56,7 +56,7 @@ body {
   z-index: 9999;
 }
 
-.logo-container {
+.logo-container a {
   height: 80px;
   display: flex;
   align-items: center;
@@ -147,7 +147,7 @@ a:hover {
 
 
 .section-hero .hero h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-style: oblique;
   font-weight: bold;
   color:var(--white);
@@ -531,13 +531,45 @@ footer .Name-Company{
 
 
 
+/* media nav - hero */
+
+@media (max-width: 980px) {
+  .header {
+    padding: 0px 50px 0px 10px;
+  }
+
+  .navbar i {
+    display: block;
+  }
+
+  .navbar-list {
+    position: absolute;
+    background-color: var(--black);
+    flex-direction: column;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    display: none;
+    z-index: 9999;
+    height: calc(100vh - 100px);
+  }
+
+  #toggle-menu:checked + .navbar-list {
+    display: flex;
+  }
+
+.btm-hero {
+
+  margin-left: 5rem;
+}
+
+.section-hero .hero {
+  text-align: center;
+  margin-left: .5rem;
+}
 
 
-
-
-
-
-
+}
 
 
 /* media registro */
@@ -553,4 +585,24 @@ footer .Name-Company{
     max-height: 500px;
     overflow-y: scroll;
   }
+
+  #welcome a {
+    width: 295px;
+    height: 153px;
+
+  }
+}
+
+
+
+
+/* media footer */
+
+@media (max-width: 980px){
+
+.footer-container {
+  text-align: center;
+
+} 
+
 }
