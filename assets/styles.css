@@ -852,3 +852,13 @@ max-width: 500px;
   }
 
 }
+
+
+
+@media (max-width: 440px ) {
+  .us-container {
+    height:  550px ;
+
+  }
+
+}
