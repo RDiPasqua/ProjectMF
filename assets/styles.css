@@ -846,18 +846,9 @@ max-width: 500px;
 
 
 @media (max-width: 440px ) {
-  .service-container {
-    height:  700x;
-
-  }
-
-}
-
-
-
-@media (max-width: 440px ) {
+  .service-container ,
   .us-container {
-    height:  550px ;
+    height:  695px;
 
   }
 
