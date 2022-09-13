@@ -254,6 +254,15 @@ h5::before {
   display: flex;
 }
 
+.clients-text h5 {
+  font-weight: 900;
+  font-size: 30px;
+  color: var(--black);
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
 .clients-list {
   max-width: 750px;
   display: flex;
@@ -312,6 +321,11 @@ h5::before {
 .contact-text h5 {
   display: flex;
   justify-content: space-around;
+  font-weight: 900;
+  font-size: 30px;
+  color: var(--black);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #Mensaje {
