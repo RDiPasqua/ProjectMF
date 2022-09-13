@@ -26,6 +26,9 @@ body {
   color: var(--white);
 }
 
+
+/* ---------------------- NavBar---------------------- */
+
 .section-container {
   background-color: var(--black);
 }
@@ -182,7 +185,13 @@ a:hover {
   justify-content: center;
 }
 
-/* ----------------  Main  ----------------- */
+/* ---------------- ---------- Main -----------  ----------------- */
+
+
+
+/* ---------Service ----------- */
+
+
 
 .main-container {
   background-color: var(--white);
@@ -199,8 +208,7 @@ a:hover {
   justify-content: center;
 }
 
-.service-text 
-h5 {
+.service-text h5 {
   font-weight: 900;
   font-size: 30px;
   color: var(--black);
@@ -227,6 +235,9 @@ h5::before {
   text-indent: 20px;
 }
 
+
+/* -------------------------- US ---------------------- */
+
 .us-text h5 {
   font-weight: 900;
   font-size: 30px;
@@ -235,41 +246,6 @@ h5::before {
   margin-bottom: 30px;
 }
 
-.imagen-main {
-  max-width: 600px;
-  max-height: auto;
-  justify-content: center;
-  margin: auto;
-}
-
-#imgdepo {
-  align-items: center;
-  width: 600px;
-  height: 400px;
-  padding: 5%;
-  justify-content: center;
-}
-
-.Clients {
-  display: flex;
-}
-
-.clients-text h5 {
-  font-weight: 900;
-  font-size: 30px;
-  color: var(--black);
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-}
-
-.clients-list {
-  max-width: 750px;
-  display: flex;
-  overflow-x: auto;
-  align-items: center;
- 
-}
 
 .us-container {
   border-bottom: var(--red) solid 5px;
@@ -282,7 +258,6 @@ h5::before {
   justify-content: center;
 }
 
-
 .us-text p {
   font-size: 1.2rem;
   color: var(--black);
@@ -290,12 +265,51 @@ h5::before {
   line-height: 1.3;
   text-align: justify;
   text-indent: 20px;
-  
 }
 
 .us-text {
   gap: 20px;
 }
+
+
+/* .imagen-main {
+  max-width: 600px;
+  max-height: auto;
+  justify-content: center;
+  margin: auto;
+}
+
+#imgdepo {
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  padding: 5%;
+  justify-content: center;
+} */
+
+
+/* --------------------Clients------------------ */
+
+
+.Clients {
+  display: flex;
+}
+
+.clients-text h5 {
+  font-weight: 900;
+  font-size: 30px;
+  color: var(--black);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.clients-list {
+  max-width: 750px;
+  display: flex;
+  overflow-x: auto;
+  align-items: center;
+}
+
 
 .clients-container {
   border-bottom: var(--red) solid 5px;
@@ -306,6 +320,10 @@ h5::before {
   display: flex;
   justify-content: center;
 }
+
+
+
+/* ------------   contact  --------------------- */
 
 .contact-container {
   border-bottom: var(--red) solid 5px;
@@ -407,6 +425,12 @@ footer .Name-Company {
   width: 30px;
   flex-direction: row;
 }
+
+
+
+/* ----------------------------- Pages -------------------------*/
+
+
 
 /*----------------- Log In --------------------------*/
 
@@ -736,49 +760,42 @@ form .user-details .input-box {
   }
 }
 
-
-
-  @media (max-width: 980px) {
-    .footer-container {
-      text-align: center;
-    }
+@media (max-width: 980px) {
+  .footer-container {
+    text-align: center;
   }
-  
+}
 
-  
-  @media (max-width: 400px) {
-    .contact-text {
-      max-width: 100%;
-    }
-  
-    .contact-container {
-      height: 880px;
-    }
-  
-    #Mensaje {
-      width: 269px;
-      height: 190px;
-    }
-  
-    form .user-details .input-box {
-      margin-bottom: 15px;
-      width: 100%;
-    }
-    .container form .user-details {
-      max-height: 500px;
-      overflow-y: scroll;
-    }
-
+@media (max-width: 400px) {
+  .contact-text {
+    max-width: 100%;
   }
+
+  .contact-container {
+    height: 880px;
+  }
+
+  #Mensaje {
+    width: 269px;
+    height: 190px;
+  }
+
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .container form .user-details {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+}
 
 /* -------logos clientes ------- */
 
 @media (max-width: 840px) {
-
- .clients-list {
-max-width: 500px;
-
-}
+  .clients-list {
+    max-width: 500px;
+  }
 }
 @media (max-width: 532px) {
   .clients-list img {
@@ -807,7 +824,6 @@ max-width: 500px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: column;
-    
   }
 }
 
@@ -836,60 +852,41 @@ max-width: 500px;
 
 } */
 
-
-@media (max-width: 1080px ) {
-  .service-container p ,
+@media (max-width: 1080px) {
+  .service-container p,
   .us-container p {
     max-width: 1010px;
     text-align: center;
-  
   }
-  
-  }
-
-
-  @media (max-width: 761px ) {
-    .service-container p ,
-    .us-container p {
-      max-width: 700px;
-      text-align: center;
-    
-    }
-    
-    }
-  
-
-
-    @media (max-width: 414px ) {
-      .service-container p ,
-      .us-container p {
-        max-width: 385px;
-        text-align: center;
-      
-      }
-      
-      }
-      
-
-
-
-
-@media (max-width: 390px ) {
-.service-container p ,
-.us-container p {
-  max-width: 340px;
-  text-align: center;
-
 }
 
+@media (max-width: 761px) {
+  .service-container p,
+  .us-container p {
+    max-width: 700px;
+    text-align: center;
+  }
 }
 
+@media (max-width: 414px) {
+  .service-container p,
+  .us-container p {
+    max-width: 385px;
+    text-align: center;
+  }
+}
 
-@media (max-width: 440px ) {
-  .service-container ,
+@media (max-width: 390px) {
+  .service-container p,
+  .us-container p {
+    max-width: 340px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .service-container,
   .us-container {
-    height:  695px;
-
+    height: 695px;
   }
-
 }
