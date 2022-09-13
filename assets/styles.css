@@ -199,7 +199,7 @@ a:hover {
   justify-content: center;
 }
 
-.service-text,
+.service-text 
 h5 {
   font-weight: 900;
   font-size: 30px;
@@ -730,9 +730,9 @@ form .user-details .input-box {
     }
   }
   
-  /* media contacto  */
+
   
-  @media (max-width: 584px) {
+  @media (max-width: 400px) {
     .contact-text {
       max-width: 100%;
     }
@@ -742,7 +742,7 @@ form .user-details .input-box {
     }
   
     #Mensaje {
-      width: 271.5px;
+      width: 269px;
       height: 190px;
     }
   
